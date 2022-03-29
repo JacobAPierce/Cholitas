@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#hcb {
+    opacity: 0%;
+}
+
+.d1 {
+    height: 50px;
+    margin: 0px;
+    width: 100%;
+}
+
+i {
+    background-color: indigo;
+    color: goldenrod;
+    display: block;
+    font-size: 30px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+ul {
+    background-color: indigo;
+    /*border: 2px solid red;*/
+    color: goldenrod;
+    display: block;
+    margin: 0px;
+    opacity: 0%;
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 200px;
+}
+
+li {
+    /*border: 2px dashed green;*/
+    display: block;
+}
+
+input[type='checkbox']:checked + ul {
+    opacity: 100%;
+}
+
+.top {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}

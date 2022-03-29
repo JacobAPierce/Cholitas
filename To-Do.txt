@@ -1,0 +1,2 @@
+- "Teams and Coaches" need to drop-down to reveal each team and coach (and link when clicked) on hover
+- registration form on try-outs page

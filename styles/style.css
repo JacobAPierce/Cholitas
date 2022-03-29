@@ -1,0 +1,112 @@
+a:link {
+    color: goldenrod;
+    font-size: 2.5vw;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: goldenrod;
+    font-size: 2.5vw;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.25);
+    font-size: 2.5vw;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:active {
+    color: goldenrod;
+    font-size: 2.5vw;
+    padding: 10px;
+    text-decoration: none;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url('../images/pexels-torsten-dettlaff-102448.jpg');
+    background-size: cover;
+    color: goldenrod;
+    display: block;
+    margin: 0px;
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(0, 0, 0, .75);
+
+    left: 19%;
+    padding: 20px;
+    position: relative;
+    width: 59.5%;
+}
+
+.current {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.imgwcaption {
+    font-size: small;
+    font-weight: bold;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.social {
+    background-color: white;/*
+    background-image: url('../images/48x48.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;*/
+    border-bottom: black solid 10px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    object-position: center;
+    text-align: center;
+}
+
+.title {
+    background-color: indigo;
+    border-bottom: goldenrod solid 10px;
+    border-top: goldenrod solid 10px;
+    padding: 0px;
+    width: 100%;
+    
+    font-family: 'Grenze Gotisch',fantasy;
+    font-size: 7vw;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+
+.topnav {
+    background-color: rgba(0, 0, 0, 1.0);
+
+    border: 0px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    padding: 0px;
+    position: static;
+    width: 100%;
+
+    font-family: fantasy;
+    font-size: 2.5vw;
+    text-align: center;
+    word-spacing: 100px;
+}
+
+.toplogo:hover {
+    background-size: 48px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
